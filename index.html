@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./node_modules/bootstrap/dist/css/bootstrap.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='./js/main.js' defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row" id="products-container"></div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Your order</h4>
+                            <div data-cart-empty class="alert alert-secondary" role="alert">Cart is empty</div>
+
+                            <div class="cart-wrapper">
+                                <!-- здесь будет карточка(в корзине)-->
+                            </div>
+
+                            <div class="cart-total">
+                                <p data-cart-delivery class="none">
+                                    <span class="h5">Delivery:</span>
+                                    <span class="delivery-cost">20$</span><br>
+                                    <span class="small">Free when ordering from 20$</span>
+                                </p>
+                                <p><span class="h5">Total:</span>
+                                    <span class="total-price">0</span>
+                                    <span class="rouble">$</span>
+                                </p>
+                            </div>
+                    </div>
+                    <div id="order-form" class="card-body border-top none">
+                        <h5 class="card-title">Checkout</h4>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your phone number">
+                                </div>
+                                <button type="submit" class="btn btn-dark">Order</button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

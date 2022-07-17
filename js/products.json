@@ -1,0 +1,27 @@
+[
+	{
+		"id": 1,
+		"title": "Сactus 1",
+		"price": 10,
+		"imgSrc": "1.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Сactus 2",
+		"price": 13,
+		"imgSrc": "2.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Сactus 3",
+		"price": 12,
+		"imgSrc": "3.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Сactus 4",
+		"price": 15,
+		"imgSrc": "4.jpg"
+	}
+
+]
